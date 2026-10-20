@@ -1,4 +1,4 @@
-# portafolio-qa-manual.
+
 # Portafolio de QA Manual — SauceDemo
 
 ## Perfil profesional
@@ -48,6 +48,6 @@ Este es un proyecto práctico de portafolio realizado sobre una aplicación de d
 
 ## Objetivo profesional
 
-Busco oportunidades como **QA Analyst Junior**, con enfoque en pruebas manuales funcionales, diseño y ejecución de casos de prueba, documentación de resultados y reporte de incidencias.
+Busco oportunidades como **QA Analyst**, con enfoque en pruebas manuales funcionales, diseño y ejecución de casos de prueba, documentación de resultados y reporte de incidencias.
 
 Gracias por visitar mi portafolio.
