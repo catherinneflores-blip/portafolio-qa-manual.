@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de QA manual: pruebas funcionales, casos de prueba y documentación de incidencias en SauceDemo.">
+  <title>Portafolio QA Manual | SauceDemo</title>
+  <style>
+    :root {
+      --navy: #14243a;
+      --blue: #2563eb;
+      --light: #f3f6fb;
+      --text: #263449;
+      --muted: #637187;
+      --white: #ffffff;
+      --border: #dce4ef;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--light);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--navy);
+      color: var(--white);
+      padding: 58px 20px;
+      text-align: center;
+    }
+
+    header .tag {
+      color: #b9d2ff;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      margin: 12px 0;
+      line-height: 1.2;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 14px auto;
+      color: #e0e8f5;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 10px 6px 0;
+      padding: 11px 18px;
+      border-radius: 8px;
+      background: var(--blue);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .button.secondary {
+      background: white;
+      color: var(--navy);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 30px 20px 55px;
+    }
+
+    section {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 25px;
+      margin: 22px 0;
+    }
+
+    h2 {
+      color: var(--navy);
+      margin-top: 0;
+      line-height: 1.3;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+
+    .stat {
+      background: #f8faff;
+      border: 1px solid var(--border);
+      padding: 18px;
+      border-radius: 10px;
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--blue);
+      font-size: 1.8rem;
+    }
+
+    .stat span { color: var(--muted); }
+
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+
+    .resource {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 17px;
+    }
+
+    .resource h3 { margin-top: 0; }
+
+    a { color: var(--blue); }
+
+    .resource a {
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    li { margin-bottom: 7px; }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="tag">Portafolio profesional</div>
+    <h1>QA Manual | Pruebas Funcionales</h1>
+    <p>
+      Proyecto práctico de aseguramiento de calidad de software
+      realizado en SauceDemo, una aplicación web de comercio electrónico
+      de demostración.
+    </p>
+    <a class="button secondary" href="#proyecto">Ver proyecto</a>
+    <a class="button" href="#entregables">Consultar entregables</a>
+  </header>
+
+  <main>
+    <section id="perfil">
+      <h2>Perfil profesional</h2>
+      <p>
+        Me enfoco en pruebas funcionales manuales, diseño y documentación
+        de casos de prueba, validación de resultados y registro de
+        incidencias. Este portafolio presenta un ejemplo práctico de
+        mi metodología de trabajo en QA.
+      </p>
+    </section>
+
+    <section id="proyecto">
+      <h2>Proyecto: SauceDemo</h2>
+      <p>
+        El objetivo fue validar las principales funciones de una tienda
+        web de demostración, comparar los resultados observados con los
+        esperados y documentar las pruebas.
+      </p>
+      <div class="stats">
+        <div class="stat">
+          <strong>20</strong>
+          <span>Casos manuales ejecutados y documentados</span>
+        </div>
+        <div class="stat">
+          <strong>1</strong>
+          <span>Incidencia pendiente de reproducir</span>
+        </div>
+        <div class="stat">
+          <strong>11</strong>
+          <span>Verificaciones de regresión documentadas</span>
+        </div>
+      </div>
+      <h3>Áreas verificadas</h3>
+      <ul>
+        <li>Inicio de sesión y mensajes de validación.</li>
+        <li>Visualización y ordenamiento de productos.</li>
+        <li>Agregar y eliminar productos del carrito.</li>
+        <li>Formulario y resumen de compra.</li>
+        <li>Cálculo del subtotal, impuestos y total.</li>
+        <li>Finalización de compra y navegación posterior.</li>
+      </ul>
+    </section>
+
+    <section id="entregables">
+      <h2>Documentación y evidencias</h2>
+      <p>
+        Consulta los archivos del proyecto. Los enlaces se completarán
+        con los nombres exactos de los archivos publicados en GitHub.
+      </p>
+      <div class="links">
+        <div class="resource">
+          <h3>Casos de prueba</h3>
+          <p>Plan de pruebas, casos, incidencias y resumen en Excel.</p>
+          <a href="Portafolio_QA_Manual_Espanol.xlsx">Descargar Excel</a>
+        </div>
+        <div class="resource">
+          <h3>Evidencias de ejecución</h3>
+          <p>Documento PDF con capturas de las pruebas realizadas.</p>
+          <a href="Evidencias%20de%20ejecuci%C3%B3n%20de%20pruebas.pdf">Abrir PDF</a>
+        </div>
+        <div class="resource">
+          <h3>Presentación del portafolio</h3>
+          <p>Resumen del proyecto y del trabajo documentado.</p>
+          <a href="Presentaci%C3%B3n%20del%20Portafolio%20QA%20Manual%20%E2%80%94%20SauceDemo.pdf">Abrir presentación PDF</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="metodologia">
+      <h2>Metodología y herramientas</h2>
+      <ul>
+        <li>Revisión del alcance y planificación de pruebas.</li>
+        <li>Documentación de pasos y resultados esperados.</li>
+        <li>Ejecución manual y comparación de resultados.</li>
+        <li>Registro de incidencias y preparación de verificaciones de regresión.</li>
+        <li>Organización de evidencias y documentación de resultados.</li>
+      </ul>
+      <p><strong>Herramientas:</strong> SauceDemo, navegador web, Excel compatible, Google Sheets y GitHub.</p>
+    </section>
+
+    <section>
+      <h2>Transparencia del proyecto</h2>
+      <p class="note">
+        Este es un proyecto práctico de portafolio sobre una aplicación
+        de demostración; no representa una auditoría completa de software.
+        La incidencia de sesión se registró como pendiente de reproducir,
+        ya que el flujo funcionó al repetir la prueba.
+        Las verificaciones de regresión están documentadas, pero no todas
+        se ejecutaron en una ronda independiente.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Portafolio QA Manual · Proyecto SauceDemo
+  </footer>
+</body>
+</html>
